@@ -107,6 +107,9 @@ section#about{
   footer{
     padding: 30px 25px!important;
   }
+  .kolonne div.social img{
+    padding:0!important;
+  }
 }
  /*----------- Sefa - Contact section -----------*/
  html {
