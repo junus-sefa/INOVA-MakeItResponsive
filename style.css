@@ -99,13 +99,13 @@ section#about{
   h2{
     margin:0!important;
     padding: 0!important;
-    font-size: 2.2em;
+    font-size: 2.2em!important;
   }
   section#contact{
-    padding:50px 25px;
+    padding:50px 25px!important;
   }
   footer{
-    padding: 30px 25px;
+    padding: 30px 25px!important;
   }
 }
  /*----------- Sefa - Contact section -----------*/
