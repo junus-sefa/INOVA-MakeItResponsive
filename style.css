@@ -94,8 +94,19 @@ section#about{
      padding: 40px;
  }
 
-
-
+ /*----------- Sefa - Responsive -----------*/
+@media screen and (min-device-width : 0px) and (max-device-width : 630px){
+  h2{
+    margin:0!important;
+    padding: 0!important;
+  }
+  section#contact{
+    padding:50px 25px;
+  }
+  footer{
+    padding: 30px 25px;
+  }
+}
  /*----------- Sefa - Contact section -----------*/
  html {
    box-sizing: border-box;
@@ -394,7 +405,7 @@ margin: 10px;
 line-height: 1.3;
 }
 
-		
+
 .schedule{
 margin: 10px;
 padding: 5px;
@@ -405,7 +416,7 @@ padding: 3px;
 }
 
 .schedule span{
-font-size: 50px;	
+font-size: 50px;
 }
 
 .schedule h1{
@@ -427,5 +438,3 @@ width: 600px;
 margin:15px auto;
 border-radius: 5px;
 }
-
-
