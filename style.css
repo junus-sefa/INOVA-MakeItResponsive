@@ -113,8 +113,11 @@ section#about{
   form input, form textarea{
     border-radius: 0!important;
   }
+  .rad>div{
+    flex: 0 100%!important;
+  }
   .kolonne{
-    width:100%!important;
+    width:100%;
   }
 }
  /*----------- Sefa - Contact section -----------*/
