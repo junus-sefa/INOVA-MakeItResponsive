@@ -343,6 +343,62 @@ h2{
 /*pictures*/
 /*Thanasis: Our Team*/
 
+/*scaling: Our Team*/
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+
+  }
+
+  .column img {
+    width: 87%;
+    margin-top: 20px;
+  }
+
+  .column2-row2 img {
+    width: 87%;
+    margin-top: 20px;
+  }
+
+  .column2 {
+    width: 100%;
+  }
+
+  .column2-row2 {
+    width: 100%;
+  }
+
+  .column-row2 {
+    width: 100%;
+  }
+
+  .column2 p {
+    font-size: 25px;
+    width: 86%;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    line-height: 40px;
+  }
+
+  .column-row2 p {
+    font-size: 25px;
+    width: 86%;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    line-height: 40px;
+  }
+
+  .row{
+    display: block;
+    overflow-x: hidden;
+  }
+
+  .row2{
+    display: block;
+    overflow-x: hidden;
+  }
+/*scaling: Our Team*/
+
  footer{
    background-color: rgb(230, 230, 230);
    display: flex;
@@ -423,7 +479,7 @@ h2{
 		}
 
 		.schedule span{
-			font-size: 50px;	
+			font-size: 50px;
 		}
 
 		.schedule h1{
