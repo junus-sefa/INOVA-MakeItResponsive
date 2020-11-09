@@ -1,4 +1,10 @@
 /*Annette meny*/
+.header {
+    height: 70px;
+    width: 100%;
+    z-index:12;
+}
+
 .header a {
     float: left;
     color: black;
