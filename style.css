@@ -104,6 +104,101 @@ section#about{
      padding: 40px;
  }
 
+
+/*---------Innovation Camp Schedule-------*/
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.wrapper{
+height: 100vh;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+grid-gap: 45px;
+position: relative;
+}
+
+.box2{
+margin: 30px;
+}
+
+.text{
+margin: 20px;
+line-height: 1.3;
+}
+
+.text h1 span{
+color: #FFD200;
+font-size: 40px;
+}
+
+.text h1{
+margin: 30px;
+}
+
+.btn{
+background: #FFD200;
+color: black;
+text-decoration: none;
+cursor: pointer;
+margin-left: 80px;
+padding: 20px;
+font-size: 20px;
+position: absolute;
+transition: 1s ease;
+border-radius: 4px
+}
+
+.btn:hover{
+background:black;
+letter-spacing: 3px;
+color: white;
+}
+
+		.box{
+			background: #FFD200;
+			width: 93%;
+			height: 95%;
+			margin: 10px;
+			line-height: 1.3;
+		}
+
+		.schedule{
+			margin: 10px;
+			padding: 5px;
+		}
+
+		.schedule h1, h3, p{
+			padding: 3px;
+		}
+
+		.schedule span{
+			font-size: 50px;
+		}
+
+		.schedule h1{
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.schedule1{
+			margin: 10px;
+			padding: 5px;
+
+		}
+		.box .schedule:after{
+			content:'';
+			background: #111;
+			display: block;
+			height: 3px;
+			width: 100%;
+			margin:15px auto;
+			border-radius: 5px;
+		}
+
  /*----------- Sefa - Responsive -----------*/
 @media screen and (min-device-width : 0px) and (max-device-width : 630px){
   h2{
@@ -460,95 +555,3 @@ h2{
 /*scaling: Our Team*/
 
 
-/*---------Innovation Camp Schedule-------*/
-*{
-		margin:0;
-		padding: 0;
-		box-sizing: border-box;
-		}
-
-		.wrapper{
-			height: 100vh;
-			width: 100%;
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-			grid-gap: 45px;
-			position: relative;
-		}
-
-		.box2{
-			margin: 30px;
-		}
-
-		.text{
-			margin: 20px;
-			line-height: 1.3;
-		}
-
-		.text h1 span{
-		color: #FFD200;
-		font-size: 40px;
-		}
-
-		.text h1{
-			margin: 30px;
-		}
-
-		.btn{
-			background: #FFD200;
-			color: black;
-			text-decoration: none;
-			cursor: pointer;
-			margin-left: 80px;
-			padding: 20px;
-			font-size: 20px;
-			position: absolute;
-			transition: 1s ease;
-			border-radius: 4px;		}
-
-		.btn:hover{
-			background:black;
-			letter-spacing: 3px;
-			color: white;
-		}
-
-		.box{
-			background: #FFD200;
-			width: 93%;
-			height: 95%;
-			margin: 10px;
-			line-height: 1.3;
-		}
-
-		.schedule{
-			margin: 10px;
-			padding: 5px;
-		}
-
-		.schedule h1, h3, p{
-			padding: 3px;
-		}
-
-		.schedule span{
-			font-size: 50px;
-		}
-
-		.schedule h1{
-			text-align: center;
-			margin-bottom: 30px;
-		}
-
-		.schedule1{
-			margin: 10px;
-			padding: 5px;
-
-		}
-		.box .schedule:after{
-			content:'';
-			background: #111;
-			display: block;
-			height: 3px;
-			width: 100%;
-			margin:15px auto;
-			border-radius: 5px;
-		}
