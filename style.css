@@ -419,7 +419,7 @@ background-color: white;
 
 /*text*/
 .column2 p{
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 2%;
   margin-left: 40px;
   margin-bottom: auto;
@@ -437,7 +437,7 @@ background-color: white;
 }
 
 .column-row2 p{
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 2%;
   margin-bottom: auto;
   display: block;
@@ -454,7 +454,7 @@ background-color: white;
   margin-left: 40px;
 }
 
-h2{
+.team h2{
   margin-top: 20px;
   padding: 20px;
   font-size: 4em;
@@ -514,7 +514,7 @@ h2{
   }
 
   .column2 p {
-    font-size: 30px;
+    font-size: 20px;
     width: 86%;
     margin-left: 40px;
     margin-bottom: 40px;
@@ -522,7 +522,7 @@ h2{
   }
 
   .column-row2 p {
-    font-size: 30px;
+    font-size: 20px;
     width: 86%;
     margin-left: 40px;
     margin-bottom: 40px;
@@ -530,7 +530,7 @@ h2{
   }
 
   .column2 h1{
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
     margin-top: 90px;
     margin-left: 40px;
@@ -540,7 +540,7 @@ h2{
     text-align: left;
     margin-top: 90px;
     margin-left: 40px;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .row{
@@ -553,5 +553,3 @@ h2{
     overflow-x: hidden;
   }
 /*scaling: Our Team*/
-
-
