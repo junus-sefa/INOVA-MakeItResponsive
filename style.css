@@ -108,7 +108,13 @@ section#about{
     padding: 30px 25px!important;
   }
   .kolonne div.social img{
-    padding:0!important;
+    padding:0 5px!important;
+  }
+  form input, form textarea{
+    border-radius: 0!important;
+  }
+  .kolonne{
+    width:100%!important;
   }
 }
  /*----------- Sefa - Contact section -----------*/
@@ -123,6 +129,14 @@ section#about{
    padding:50px 200px;
    line-height: 2;
    text-align: center;
+ }
+ section#contact a{
+   color:#ffdb00;
+   text-decoration: none;
+   transition: .15s;
+ }
+ section#contact a:hover{
+   color:#000;
  }
 
  #contact form{
@@ -151,6 +165,23 @@ section#about{
    padding: 10px;
    width: 100%;
  }
+
+footer{
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px;
+  font-weight: 900;
+}
+footer a{
+  color:#000;
+  text-decoration: none;
+  transition: .15s;
+}
+footer a:hover{
+  opacity: .2;
+}
  .rad{
    display: flex;
    flex-direction: row;
@@ -193,6 +224,7 @@ section#about{
  }
 
  .send_btn{
+   width: 95%;
    margin-top:40px;
    padding:15px 40px;
    background-color: #000;
@@ -413,15 +445,6 @@ h2{
     overflow-x: hidden;
   }
 /*scaling: Our Team*/
-
- footer{
-   background-color: rgb(230, 230, 230);
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 30px 150px;
-   font-weight: 900;
- }
 
 
 /*---------Innovation Camp Schedule-------*/
