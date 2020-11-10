@@ -552,4 +552,9 @@ background-color: white;
     display: block;
     overflow-x: hidden;
   }
+
+  .team h2{
+    font-size: 30px;
+    margin-top: 650px;
+  }
 /*scaling: Our Team*/
