@@ -47,18 +47,6 @@ li a:hover {
     color: #707070;
 }
 
-@media screen and (min-device-width : 0px) and (max-device-width : 630px){
- .menu, ul, li {
-    width:100%;
-    padding: 0;
-   
-}
-.header a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0;
 
 /*sara banner*/
 
