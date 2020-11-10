@@ -421,7 +421,7 @@ background-color: white;
 /*text*/
 .column2 p{
   font-size: 15px;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-left: 40px;
   margin-bottom: auto;
   display: block;
@@ -433,14 +433,14 @@ background-color: white;
 
 .column2 h1{
   text-align: left;
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 40px;
   font-size: 1.2em;
 }
 
 .column-row2 p{
   font-size: 15px;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: auto;
   display: block;
   margin-right: 60px;
@@ -452,7 +452,7 @@ background-color: white;
 
 .column-row2 h1{
   text-align: left;
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 40px;
   font-size: 1.2em;
 }
