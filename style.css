@@ -469,13 +469,13 @@ background-color: white;
 /*pictures*/
 .column img {
   margin: 10px;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
 .column2-row2 img {
   margin: 10px;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 /*pictures*/
@@ -489,12 +489,12 @@ background-color: white;
   }
 
   .column img {
-    width: 87%;
+    width: 80%;
     margin-top: 20px;
   }
 
   .column2-row2 img {
-    width: 87%;
+    width: 80%;
     margin-top: 20px;
   }
 
