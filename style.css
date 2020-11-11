@@ -56,14 +56,13 @@ li a:hover {
     text-align: left;
     padding-bottom: 10px;	  
   }
-  
-  .menu ul{
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0;
+	
+  .menu {
+    float: none;
+    text-align: left;
+    width: 100%;
   }
+  
 }
 
 /*sara banner*/
