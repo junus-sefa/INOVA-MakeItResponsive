@@ -49,19 +49,18 @@ li a:hover {
     color: #707070;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .header a {
     float: none;
     display: block;
     text-align: left;
-    padding-bottom: 10px;	
-    align-items: left;	  
+      
   }
 	
   .menu {
     float: none;
-    text-align: left;
-    width: 100%;
+    text-align: center;
+    
   }
   
 }
