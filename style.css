@@ -1,13 +1,13 @@
 /*Annette meny*/
-.header {
+.nav {
     height: 70px;
     width: 100%;
     z-index:-1;
     
 }
 
-.header a {
-    float: left;
+.nav a {
+    float: right;
     color: black;
     text-align: center;
     padding: 12px;
@@ -20,9 +20,6 @@
 }
 
 
-.menu {
-    float: right;
-}
 
 ul {
     margin: 0;
