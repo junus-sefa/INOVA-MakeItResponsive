@@ -51,6 +51,7 @@ li {
     float: left;
     display: inline-block;
     position: relative;
+    list-style: none;
 }
 
 
