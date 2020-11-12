@@ -1,16 +1,16 @@
 /*Annette meny*/
 *{
+    margin: 0;
+    padding:0;
     list-style: none;
     text-decoration: none;
+    
+    
 }
 
 .nav {
-    display: block;
-    position: static;
-    height: 100px;
-    width: 100%;
-    list-style: none;
-    text-decoration: none;
+    height:90px;
+    background: #fff;
     
 }
 
