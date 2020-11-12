@@ -1,4 +1,9 @@
 /*Annette meny*/
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
 .nav {
     display: block;
     position: static;
