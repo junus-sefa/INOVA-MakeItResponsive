@@ -4,14 +4,14 @@
     padding:0;
     list-style: none;
     text-decoration: none;
-    
-    
+
+
 }
 
 .nav {
     height:90px;
     background: #fff;
-    
+
 }
 
 .nav a {
@@ -236,7 +236,7 @@ color: white;
 		}
 
  /*----------- Sefa - Responsive -----------*/
-@media screen and (min-device-width : 0px) and (max-device-width : 630px){
+@media screen and (max-width: 1000px) {
   h2{
     margin:0!important;
     padding: 0!important;
@@ -260,6 +260,9 @@ color: white;
   .kolonne{
     width:100%;
   }
+  form .radr{
+    display: block!important;
+  }
 }
  /*----------- Sefa - Contact section -----------*/
  html {
@@ -275,12 +278,12 @@ color: white;
    text-align: center;
  }
  section#contact a{
-   color:#ffdb00;
+   color:#000;
    text-decoration: none;
    transition: .15s;
  }
  section#contact a:hover{
-   color:#000;
+   color:#ffdb00;
  }
 
  #contact form{
@@ -299,7 +302,6 @@ color: white;
    outline: none;
  }
  form input,form textarea{
-   padding: 10px;
    width: 100%;
    padding:15px 10px;
    border:0;
