@@ -243,7 +243,7 @@ color: white;
     font-size: 2.2em!important;
   }
   section#contact{
-    padding:50px 25px!important;
+    padding:50px 15px!important;
   }
   footer{
     padding: 30px 25px!important;
@@ -262,6 +262,10 @@ color: white;
   }
   form .radr{
     display: block!important;
+  }
+  #contact form{
+    padding: 40px 10px!important;
+    width: 100%;
   }
 }
  /*----------- Sefa - Contact section -----------*/
