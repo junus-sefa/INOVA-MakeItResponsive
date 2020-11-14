@@ -283,7 +283,7 @@ color: white;
    transition: .15s;
  }
  section#contact a:hover{
-   color:#ffdb00;
+   opacity:.5;
  }
 
  #contact form{
